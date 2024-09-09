@@ -6,7 +6,7 @@ Hanoi tower project made in Unity
 - The project is located in the [Hanoi Unity Project](Hanoi%20Unity%20Project) directory. 
 - The project is designed to run on a 16:9 screen
 - There is a windows build in the [Hanoi Unity Project / Build](Hanoi%20Unity%20Project/Build) directory
-- There is a gameplay video capture in the [Video Capture](Video%20Capture) directory
+- There is a gameplay video capture in the [Video capture](Video%20capture) directory
 
 # Approach
 
