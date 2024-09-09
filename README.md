@@ -54,7 +54,7 @@ Current animation trajectory
 
 I would be curious to see if a movement path like these two examples would be better. I imagine the movement would be a lot nicer, but it would also make the gameplay slower and more tedious. 
 
-I believe the code could be optimized more (for example, I'm not sure if using GameObject.getComponent() so much is performant or if there are better approaches). I also the code more elaborate at points in an effort to improve legibility, which means some of the code could be more concise. 
+I believe the code could be optimized more (for example, I'm not sure if using GameObject.getComponent() so much is performant or if there are better approaches). I also the code more elaborate at points in an effort to improve legibility, which means some of the code could be more concise. I would love to learn more best practices for Unity and C#, in order to write better code. 
 
 I also believe that a clear next step would be to add the ability to change the number of discs in order to increase or decrease the game difficulty. It would also be nice to add some auto-solving animations that show different solving algorithms. 
 
