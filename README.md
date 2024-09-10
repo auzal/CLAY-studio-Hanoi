@@ -41,26 +41,26 @@ I'm not very convinced by them. They seem a little crude and they make the gamep
 
 ### Challenges and future improvements
 
-Some challenges arose as I added more features. For example, I initially decided against creating an AudioManager class because I thought it would add too much complexity. As I added more sounds, I realized that a separate Audio Manager would have made things more neat and better organized. The same happened as I added the color fades and changes for the discs and rods. Perhaps a MaterialManager class would have been a better way to handle this.
+- Some challenges arose as I added more features. For example, I initially decided against creating an AudioManager class because I thought it would add too much complexity. As I added more sounds, I realized that a separate Audio Manager would have made things more neat and better organized. The same happened as I added the color fades and changes for the discs and rods. Perhaps a MaterialManager class would have been a better way to handle this.
 
-It was also a challenge get the UI elements to scale properly. The unity UI system is something that I need to gain more experience with. 
+- It was also a challenge get the UI elements to scale properly. The unity UI system is something that I need to gain more experience with. 
 
-I believe the animations are quite crude at this stage. Since the discs interpolate along a straight path, there is clipping with other objects. 
+- I believe the animations are quite crude at this stage. Since the discs interpolate along a straight path, there is clipping with other objects. 
 
 ![](/Readme-images/animation-01.png)
 Current animation trajectory
 ![](/Readme-images/animation-02.png)
 ![](/Readme-images/animation-03.png)
 
-I would be curious to see if a movement path like these two examples would be better. I imagine the movement would be a lot nicer, but it would also make the gameplay slower and more tedious. 
+- I would be curious to see if a movement path like these two examples would be better. I imagine the movement would be a lot nicer, but it would also make the gameplay slower and more tedious. 
 
-I believe the code could be optimized more (for example, I'm not sure if using GameObject.getComponent() so much is performant or if there are better approaches). I also the code more elaborate at points in an effort to improve legibility, which means some of the code could be more concise. I would love to learn more best practices for Unity and C#, in order to write better code. 
+- I believe the code could be optimized more (for example, I'm not sure if using GameObject.getComponent() so much is performant or if there are better approaches). I also the code more elaborate at points in an effort to improve legibility, which means some of the code could be more concise. I would love to learn more best practices for Unity and C#, in order to write better code. 
 
-I also believe that a clear next step would be to add the ability to change the number of discs in order to increase or decrease the game difficulty. It would also be nice to add some auto-solving animations that show different solving algorithms. 
+- I also believe that a clear next step would be to add the ability to change the number of discs in order to increase or decrease the game difficulty. It would also be nice to add some auto-solving animations that show different solving algorithms. 
 
-Currently the sounds are of mixed origins. I would create custom sound clips and make them all normalized.
+- Currently the sounds are of mixed origins. I would create custom sound clips and make them all normalized.
 
-Lastly, I would make 3D meshes for the objects. Currently the discs are simply short cylinders, when they could be in fact discs with a hole in the middle. I would also work more on materials and textures, as well as lighting. 
+- Lastly, I would make 3D meshes for the objects. Currently the discs are simply short cylinders, when they could be in fact discs with a hole in the middle. I would also work more on materials and textures, as well as lighting. A custom cursor for the mouse would be nice as well. 
 
 
 
